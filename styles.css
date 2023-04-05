@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(./img/image.jpg);
+  background-size: cover;
+}
+
+.caixa-maior {
+  background: #000000;
+  opacity: 0.9;
+  border-radius: 25px;
+  padding: 20px;
+  width: 95%;
+  max-width: 400px;
+}
+
+.caixa-media {
+    margin-top: 20px;
+}
+
+.caixa-menor {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.input-cidade {
+  text-align: center;
+  border: none;
+  outline: none;
+  padding: 10px;
+  border-radius: 25px;
+  font-size: 20px;
+  background-color: #7c7c7c2b;
+  color: #ffffff;
+  width: calc(100% - 60px);
+}
+
+.botao-busca {
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 15px;
+    cursor: pointer;
+    float: right;
+}
+
+.img-busca {
+    width: 20px;
+    background: #ffffff;
+}
+
+.cidade {
+    text-align: left;
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.temp {
+    text-align: left;
+    font-size: 20px;
+    color: #ffffff;
+    margin-top: 20px;
+}
+
+.texto-previsao {
+    color:#ffffff;
+    text-transform: capitalize;
+}
+
+.umidade {
+    text-align: left;
+    color: #ffffff;
+    margin-top: 20px;    
+}
+
+.footer {
+    margin-top: 50px;  
+    font-size: 14px;
+    color: #ffffff;
+    text-align: center;
+    background: #000000;
+  }
